@@ -1,0 +1,14 @@
+1. Create a class
+	Mythread.java
+2. implement Runnable interface
+	implements Runnable (java.lang.Runnable)
+3. Override run method and write some logic here
+	public void run()
+4. Instantiate MyThread class
+	MyThread thread = new MyThread();
+5. Instantiate java.lang.Thread and pass the above instance as the argument
+	Thread thread = new Thread(thread);
+6. Start the thread
+	thread.start();
+	
+//Done				

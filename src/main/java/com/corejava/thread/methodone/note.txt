@@ -1,0 +1,12 @@
+1. Create a class
+	MyThread.java
+2. Extend Thread class 
+	extends Thread (java.lang.Thread)
+3. Override run Method write some logic here
+	public void run()
+4. Instantiate the thread 
+	MyThread t = new MyThread()
+5. Call the start method 
+	t.start()
+	
+//Done
